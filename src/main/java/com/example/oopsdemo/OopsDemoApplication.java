@@ -13,7 +13,7 @@ public class OopsDemoApplication {
         SpringApplication.run(OopsDemoApplication.class, args);
     }
 
-    @GetMapping
+    @GetMapping("/")
     public String hello() {
         return "hello";
     }
