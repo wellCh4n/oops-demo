@@ -15,6 +15,11 @@ public class OopsDemoApplication {
 
     @GetMapping("/")
     public String hello() {
+        return "ok";
+    }
+
+    @GetMapping("/hello")
+    public String hello() {
         return "hello";
     }
 }
