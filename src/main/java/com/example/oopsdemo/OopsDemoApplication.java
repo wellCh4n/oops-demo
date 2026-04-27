@@ -19,7 +19,7 @@ public class OopsDemoApplication {
     }
 
     @GetMapping("/hello")
-    public String hello() {
+    public String hello1() {
         return "hello";
     }
 }
