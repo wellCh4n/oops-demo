@@ -1,4 +1,4 @@
-FROM ccr.ccs.tencentyun.com/oops-demo/openjdk:21-slim-buster
+FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 COPY ./target/oops-demo-0.0.1-SNAPSHOT.jar /app
 RUN chmod +x oops-demo-0.0.1-SNAPSHOT.jar
